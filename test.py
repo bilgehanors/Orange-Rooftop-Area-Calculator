@@ -37,8 +37,8 @@ def calculate_orange_rooftop_area(image_path, min_contour_area, pixel_size):
     return total_area_m2
 
 if __name__ == "__main__":
-    min_contour_area = 1500
-    image_path = '/Users/bilgehanors/Desktop/Rooftop.jpeg'
+    min_contour_area = 1500 #Replace this due to the image
+    image_path = 'path/image.jpeg'
     
     pixel_size = 0.0001  # Replace this value with the actual pixel size of your image
     
